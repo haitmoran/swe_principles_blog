@@ -1,9 +1,8 @@
+import "./App.css";
+import Header from "./containers/header/Header";
+
 function App() {
-  return (
-    <div className="App">
-      SWE Principles Blog
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;
